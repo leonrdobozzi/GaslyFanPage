@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 20px;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url('../assets/images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 64px;
+}
+
+header h1 {
+    font-size: 128px;
+}
+
+main .whoisit ,
+main .about-alpha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .whoisit .who-text h3{
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    margin: 30px 0;
+    color: #01102F;
+}
+
+main .whoisit .who-text p{
+    text-align: center;
+    color: #808080;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+main .about-alpha{
+    background: #01102F;
+    padding: 80px 40px;
+}
+
+main .about-alpha img{
+    margin: 90px 0;
+
+}
+
+main .about-alpha p {
+    text-align: center;
+    color: #808080;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+main .car-2022{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .car-2022 .car-to-2022 h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    margin: 30px 0;
+    color: #01102F;
+}
+
+main .car-2022 .car-to-2022 p {
+    text-align: center;
+    color: #808080;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+main .car-2022 .car-to-2022 a {
+    text-align: right;
+    font-weight: 200;
+    font-size: 18px;
+    width: 100%;
+    display: inline-block;
+}
+
+main .car-2022 .at-03 {
+    background: #01102F;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .car-2022 .at-03 h3{
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    margin: 30px 0;
+    color: #fff;
+}
+
+main .car-2022 .at-03 p {
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    margin: 30px 0;
+    color: #808080;
+}
+
+main .owner-2022 {
+    background: url('../assets/images/bg-end.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main .owner-2022 h3{
+    width: 100%;
+    text-align: center;
+    font-size: 64px;
+    margin: 30px 0;
+    color: #fff;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    color: #fff;
+    background:#01102F;
+}
+
+footer p {
+    margin: 20px;
+}

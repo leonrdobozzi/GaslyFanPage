@@ -18,12 +18,29 @@ header {
     background: url('../assets/images/bg.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 0 0;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: #fff;
     text-align: center;
+    animation: animateBG 42s ease infinite;
+}
+
+@keyframes animateBG {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 50% 50%
+    }
+
+    100% {
+        background-position: 0 0;
+    }
 }
 
 header h2 {

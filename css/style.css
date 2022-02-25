@@ -181,3 +181,74 @@ footer {
 footer p {
     margin: 20px;
 }
+
+@media screen and (min-width: 992px) {
+    header {
+        align-items: flex-end;
+        padding: 0 50px;
+    }
+    
+    header h1 {
+        font-size: 244px;
+    }
+    
+    header h2{
+        font-size: 64px;
+    }
+
+    main .whoisit,
+    main .about-alpha {
+        flex-direction: row-reverse;
+    }
+
+    main .whoisit .who-text h3{
+        text-align: start;
+        font-size: 64px;
+    }
+
+    main .whoisit .who-text p{
+        text-align: start;
+        font-size: 32px;
+    }
+    main .about-alpha p {
+        text-align: start;
+        font-size: 32px;
+        margin-right: 150px;
+        color: #fff;
+    }
+
+    main .car-2022{
+        flex-direction: row-reverse;
+    }
+
+    main .car-2022 .car-to-2022 h3 {
+        text-align: center;
+        font-size: 64px;
+    }
+    
+    main .car-2022 .car-to-2022 p {
+        text-align: center;
+        font-size: 36px;
+    }
+    
+    main .car-2022 .car-to-2022 a {
+        font-size: 24px;
+    }
+
+    main .car-2022 .at-03 {
+        position: relative;
+        padding: 200px 0;
+    }
+
+    main .car-2022 .at-03 img {
+        position: absolute;
+        right: -25%;
+        bottom: 5%;
+        transition: all .7s ease-in-out;
+    }
+
+    main .car-2022 .at-03 img:hover {
+        transform: scale(2) rotate(-5deg);
+    }
+
+}
